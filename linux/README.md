@@ -1,6 +1,6 @@
 # Daff binary
 
-`daff-haxe2cpp-1.3.46-amd64-debug` is result of [daff](https://github.com/paulfitz/daff) `make cpp` and is symlinked to bin/daff by `install-data-engr.sh`
+[daff](https://github.com/paulfitz/daff) is library for comparing tables, producing a summary of their differences and `daff-haxe2cpp-1.3.46-amd64-debug` is result of [daff](https://github.com/paulfitz/daff) `make cpp` and is symlinked to bin/daff by `install-data-engr.sh`.
 
 To rebuild on Linux:
 
