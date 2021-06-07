@@ -2,13 +2,15 @@
 
 `daff-haxe2cpp-1.3.46-amd64-debug` is result of [daff](https://github.com/paulfitz/daff) `make cpp` and is symlinked to bin/daff by `install-data-engr.sh`
 
-To rebuild:
+To rebuild on Linux:
 
 ```bash
 asdf plugin add haxe
 asdf plugin add neko
 asdf install haxe latest
 asdf install neko latest
+asdf shell haxe latest
+asdf shell neko latest
 export PATH=$PATH:$HOME/.engrsb/haxe:$HOME/.engrsb/neko
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.engrsb/neko
 mkdir -p /tmp/engrsb-build
