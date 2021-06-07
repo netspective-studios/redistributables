@@ -11,11 +11,11 @@ asdf install haxe latest
 asdf install neko latest
 asdf shell haxe latest
 asdf shell neko latest
-export PATH=$PATH:$HOME/.engrsb/haxe:$HOME/.engrsb/neko
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/.engrsb/neko
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(asdf where neko)
 mkdir -p /tmp/engrsb-build
 cd /tmp/engrsb-build
 git clone https://github.com/paulfitz/daff
+cd daff
 make cpp
 ```
 
